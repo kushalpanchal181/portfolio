@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f0f0f0;
+  
+   /* Same as navbar height */
+}
+
+div {
+  border: 2px solid red;
+}
