@@ -1,12 +1,51 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, Vite, and other modern web technologies.
 
-Currently, two official plugins are available:
+## Key Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Three.js
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To set up the project, run the following command:
+
+```bash
+npm install
+```
+
+## Usage
+
+### Running the development server
+
+```bash
+npm run dev
+```
+
+### Building the project
+
+```bash
+npm run build
+```
+
+### Linting the code
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+- `src`: Contains the main source code for the React application.
+- `public`: Contains static assets that are directly served.
+- `src/components`: Contains reusable React components.
+- `src/assets`: Contains static assets like images and SVGs that are imported into components.
+
+## Future Improvements
+- [ ] Add more projects to the portfolio.
+- [ ] Implement more complex 3D animations.
+- [ ] Write unit and integration tests.
